@@ -1,27 +1,41 @@
 🚗 Vehicle Classification System
-This project is a deep learning-based vehicle classification system that uses a fine-tuned ResNet50 model to classify images of vehicles into predefined categories such as cars, trucks, buses, and bikes. A Flask web application provides a simple interface for users to upload images and receive real-time classification results.
+A deep learning-powered Vehicle Classification System built using ResNet50, fine-tuned on a custom vehicle image dataset. This project demonstrates the practical application of computer vision by enabling real-time vehicle type recognition through a simple Flask web interface.
 
-🧠 Model Details
-Architecture: ResNet50 (pretrained on ImageNet)
+Whether it's a car, truck, bus, or bike, just upload an image and get an instant, high-confidence prediction. This system showcases the integration of a robust CNN model with an intuitive web application for real-world deployment.
 
-Training: Fine-tuned on a custom-labeled vehicle dataset
 
-Libraries: PyTorch, Torchvision
+🔍 Overview
+✅ Objective: Automatically classify vehicle types from images using a deep learning model
 
-Performance: Achieved 92% test accuracy
+🧠 Model: ResNet50 (Transfer Learning from ImageNet)
 
-🌐 Web Application
-Backend: Flask handles image uploads and runs model inference
+🎯 Accuracy: Achieved 92% on the test set
 
-Frontend: HTML/CSS interface for uploading images and displaying predictions
+🛠️ Tech Stack: PyTorch, Flask, HTML/CSS, OpenCV (optional for preprocessing)
 
-Output: Vehicle type prediction with confidence score, returned instantly
+⚡ Real-time Prediction: Upload an image and get instant feedback from the model
 
-🔧 Features
-Upload vehicle images directly through the web interface
 
-Real-time prediction with high accuracy
+✨ Key Features
+🔄 End-to-end workflow: from training to deployment
 
-End-to-end pipeline from image input to prediction output
+🌐 Web-based interface for user interaction
 
-Training notebook included for model customization and retraining
+📷 Handles real-time image input for on-the-fly prediction
+
+📈 High accuracy with minimal latency
+
+🧪 Reproducible training setup with custom dataset
+
+📦 Modular code for easy customization or extension (e.g., adding more vehicle classes or mobile deployment)
+
+
+🎓 Use Cases
+Smart traffic monitoring systems
+
+Vehicle analytics in surveillance footage
+
+Automated parking systems with vehicle detection
+
+Intelligent transport solutions (ITS)
+

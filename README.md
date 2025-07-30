@@ -11,7 +11,7 @@ Whether it's a car, truck, bus, or bike, just upload an image and get an instant
 
 🎯 Accuracy: Achieved 92% on the test set
 
-🛠️ Tech Stack: PyTorch, Flask, HTML/CSS, OpenCV (optional for preprocessing)
+🛠️ Tech Stack: PyTorch, Flask, HTML/CSS, OpenCV
 
 ⚡ Real-time Prediction: Upload an image and get instant feedback from the model
 

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vehicle Classifier</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚗 Vehicle Image Classifier</h1>
+        <p>Select an image to detect the vehicle class using AI</p>
+        <form action="/" method="post" enctype="multipart/form-data">
+            <label for="image-upload" class="upload-label">📤 Choose Image</label>
+            <input type="file" name="image" id="image-upload" accept="image/*" required>
+            <button type="submit">🔍 Classify</button>
+        </form>
+
+        {% if predicted_label %}
+            <div class="result-card">
+                <h2>🧠 Predicted Class: <span class="highlight">{{ predicted_label }}</span></h2>
+                <img src="{{ image_path }}" alt="Uploaded Image" class="preview-img" onerror="this.style.display='none'">
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
